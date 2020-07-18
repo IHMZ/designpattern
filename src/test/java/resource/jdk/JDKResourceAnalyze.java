@@ -15,5 +15,12 @@ public class JDKResourceAnalyze {
          * 简单工厂模式
          */
         Calendar instance = Calendar.getInstance();
+
+        /**
+         * 建造者模式
+         */
+        StringBuilder stringBuilder = new StringBuilder().append('a');
+
+
     }
 }
