@@ -60,5 +60,10 @@ public class JDKResourceAnalyze {
         hashmap2.put("ee","ff");
         hashmap.putAll(hashmap2);
 
+        /**
+         * 享元模式
+         */
+        Integer i = Integer.valueOf(11);
+
     }
 }
