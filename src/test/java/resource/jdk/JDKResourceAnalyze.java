@@ -11,9 +11,7 @@ import java.io.ObjectInputStream;
 import java.sql.Connection;
 import java.sql.Driver;
 import java.sql.SQLException;
-import java.util.Calendar;
-import java.util.HashMap;
-import java.util.Map;
+import java.util.*;
 
 public class JDKResourceAnalyze {
 
@@ -64,6 +62,11 @@ public class JDKResourceAnalyze {
          * 享元模式
          */
         Integer i = Integer.valueOf(11);
+
+        /**
+         * 迭代器模式
+         */
+        List list = new ArrayList();
 
     }
 }
