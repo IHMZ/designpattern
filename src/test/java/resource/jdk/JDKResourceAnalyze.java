@@ -68,5 +68,22 @@ public class JDKResourceAnalyze {
          */
         List list = new ArrayList();
 
+        /**
+         * 观察者模式
+         */
+        Observable observable = new Observable();
+
+        /**
+         * 策略模式
+         */
+        Comparator<Integer> comparator = new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return o1 - o2;
+            }
+        };
+        Integer array[] = {1,5,2,6,22};
+        Arrays.sort(array,comparator);
+
     }
 }
